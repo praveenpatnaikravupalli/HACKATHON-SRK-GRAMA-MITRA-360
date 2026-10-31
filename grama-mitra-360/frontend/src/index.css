@@ -1,0 +1,20 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { font-size: 17px; } html.large { font-size: 21px; }
+body { @apply bg-slate-50 text-slate-900 antialiased; }
+@layer components {
+  .card { @apply rounded-3xl bg-white p-5 shadow-sm ring-1 ring-slate-200; }
+  .btn { @apply inline-flex min-h-[3.25rem] items-center justify-center gap-2 rounded-2xl px-6 py-3 text-lg font-semibold transition focus:outline-none focus-visible:ring-4 focus-visible:ring-saffron-500 disabled:opacity-50; }
+  .btn-primary { @apply btn bg-brand-600 text-white hover:bg-brand-700; }
+  .btn-ghost { @apply btn bg-white text-slate-800 ring-1 ring-slate-300 hover:bg-slate-100; }
+  .btn-warn { @apply btn bg-saffron-500 text-white hover:bg-saffron-600; }
+  .input { @apply w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-lg focus:border-brand-600 focus:outline-none focus:ring-4 focus:ring-brand-100; }
+}
+/* High-contrast mode */
+html.hc body { background: #000; color: #fff; }
+html.hc .card { background: #000; color: #fff; box-shadow: none; border: 2px solid #fff; }
+html.hc .btn-primary { background: #ffe600; color: #000; }
+html.hc .btn-ghost { background: #000; color: #fff; border: 2px solid #fff; }
+html.hc .btn-warn { background: #00e5ff; color: #000; }
+html.hc .input { background: #000; color: #fff; border: 2px solid #fff; }
+html.hc .text-slate-500, html.hc .text-slate-600, html.hc .text-slate-700 { color: #e5e5e5; }
+html.hc header { background: #000 !important; border-color: #fff !important; }

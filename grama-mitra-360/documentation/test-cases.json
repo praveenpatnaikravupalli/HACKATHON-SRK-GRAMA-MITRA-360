@@ -1,0 +1,18 @@
+[
+ {"id":"T01","group":"standard-telugu","lang":"te","text":"నాకు వృద్ధాప్య పెన్షన్ ఎలా వస్తుంది?","expectIntent":["service_info","eligibility"],"expectSlug":"old-age-pension"},
+ {"id":"T02","group":"colloquial-telangana","lang":"te","text":"అన్నా నాకు పింఛన్ ఎట్లా వస్తది?","expectIntent":["service_info","eligibility"],"expectSlug":"old-age-pension"},
+ {"id":"T03","group":"hindi","lang":"hi","text":"मुझे वृद्धावस्था पेंशन कैसे मिलेगी?","expectIntent":["service_info","eligibility"],"expectSlug":"old-age-pension"},
+ {"id":"T04","group":"english","lang":"en","text":"I want an old-age pension","expectIntent":["service_info","eligibility"],"expectSlug":"old-age-pension"},
+ {"id":"T05","group":"documents-en","lang":"en","text":"What documents are required for a ration card?","expectIntent":["documents"],"expectSlug":"ration-card"},
+ {"id":"T06","group":"documents-hi","lang":"hi","text":"राशन कार्ड के लिए कौन से दस्तावेज़ चाहिए?","expectIntent":["documents"],"expectSlug":"ration-card"},
+ {"id":"T07","group":"documents-te","lang":"te","text":"రేషన్ కార్డుకి ఏ పత్రాలు కావాలి?","expectIntent":["documents"],"expectSlug":"ration-card"},
+ {"id":"T08","group":"mixed-telugu-english","lang":"te","text":"Pension కి apply ఎలా చేయాలి?","expectIntent":["service_info","eligibility"],"expectSlug":"old-age-pension"},
+ {"id":"T09","group":"mixed-hinglish","lang":"hi","text":"Mujhe scholarship ka form kaise bharna hai","expectIntent":["service_info","documents"],"expectSlug":"scholarship"},
+ {"id":"T10","group":"health","lang":"hi","text":"Ayushman Bharat card kaise banega","expectIntent":["service_info"],"expectSlug":"ayushman-bharat"},
+ {"id":"T11","group":"scam-en","lang":"en","text":"Someone called me and asked for money to approve my pension. Is this genuine?","expectIntent":["scam_safety"],"expectSlug":"scam-safety"},
+ {"id":"T12","group":"scam-te","lang":"te","text":"ఎవరో ఫోన్ చేసి పింఛన్ కోసం డబ్బులు అడిగారు, ఇది నిజమేనా?","expectIntent":["scam_safety"],"expectSlug":"scam-safety"},
+ {"id":"T13","group":"scam-hi","lang":"hi","text":"किसी ने ओटीपी मांगा, क्या यह धोखा है?","expectIntent":["scam_safety"],"expectSlug":"scam-safety"},
+ {"id":"T14","group":"human-handoff","lang":"en","text":"I want to talk to a person","expectIntent":["human_help"],"expectAction":"offer_handoff"},
+ {"id":"T15","group":"unverified","lang":"en","text":"How do I get the free scooter scheme?","expectAction":"offer_handoff"},
+ {"id":"T16","group":"noise","lang":"en","text":"hmm uh the the","expectAction":"repeat"}
+]
